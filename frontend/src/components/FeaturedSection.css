@@ -1,0 +1,36 @@
+.FeaturedSection {
+    width: 90%;
+    max-width: 1175px;
+    margin: 0 auto;
+}
+.FeaturedSection h1 {
+    text-align: left;
+    margin-bottom: 1.5rem;
+}
+.products-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.view-products-btn {
+    margin: 2rem 0;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+}
+.view-products-btn:hover {
+    background-color: black;
+    color: white;
+}
+.FeaturedSection.Shop {
+    padding-top: 4.375rem;
+}
+.FeaturedSection.Shop h1 {
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 661px) {
+    .FeaturedSection h1 {
+        text-align: center;
+    }
+}

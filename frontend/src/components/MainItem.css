@@ -1,0 +1,33 @@
+.MainItem {
+    width: 90%;
+    max-width: 1000px;
+    margin: 3rem auto 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: lightgray; */
+    text-align: left;
+}
+.MainItem img {
+    width: 345px;
+}
+.text {
+    margin-left: 1.5rem;
+}
+.MainItem h2 {
+    font-size: 1.2rem;
+}
+.MainItem p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 1.2rem 0;
+}
+
+@media screen and (max-width: 767px) {
+    .MainItem {
+        flex-direction: column;
+    }
+    .MainItem img {
+        margin-bottom: 1.5rem;
+    }
+}

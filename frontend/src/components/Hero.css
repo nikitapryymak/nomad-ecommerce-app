@@ -1,0 +1,26 @@
+.Hero {
+    height: calc(100vh - 4.375rem);
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.Hero .content {
+    width: 100%;
+    height: 100%;
+    padding: 0 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.75rem;
+    font-weight: 600;
+}
+.shop-btn {
+    margin-top: 1.65rem;
+    padding: .65rem 1rem;
+    font-size: 1.1rem;
+}

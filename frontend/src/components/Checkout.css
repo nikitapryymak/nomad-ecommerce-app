@@ -1,0 +1,33 @@
+.Checkout {
+    padding-top: 7rem;
+}
+.Checkout h2, .Checkout h3 {
+    margin-bottom: 1.5rem;
+}
+.stripe-checkout-form {
+    width: 90%;
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.stripe-checkout-form input {
+    padding: .5rem;
+    margin-top: 1rem;
+    width: 16rem;
+    font-size: 1rem;
+    border: 1px solid black;
+    border-radius: 6px;
+    margin-bottom: 1.5rem;
+    outline: none;
+}
+.checkout-btn-container {
+    position: relative;
+}
+.stripe-checkout-form button {
+    width: fit-content;
+}
+.checkout-btn.loading {
+    opacity: .15;
+}

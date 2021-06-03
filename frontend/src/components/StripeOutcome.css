@@ -1,0 +1,13 @@
+.outcome-container{
+    padding-top: 10rem;
+    width: 90%;
+    margin: 0 auto;
+}
+.outcome-container h1 {
+    margin-bottom: 2rem;
+}
+
+.outcome-container p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}

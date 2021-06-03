@@ -1,0 +1,38 @@
+.CartItem {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 1rem;
+   margin: 0 auto 1rem;
+   border: 1px solid lightgray;
+}
+.left {
+    display: flex;
+}
+.right {
+    text-align: center;
+}
+.CartItem img {
+    width: 100px;
+    margin-right: 1.25rem;
+}
+.title-price {
+    text-align: left;
+}
+.title-price h3 {
+    margin: .75rem 0;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.title-price h4 {
+    color: #968e8e;
+    cursor: pointer;
+}
+.title-price h4:hover {
+    text-decoration: underline;
+}
+.right p {
+    font-weight: 500;
+    font-size: 1.3rem;
+    margin: .5rem 0;
+}

@@ -1,0 +1,30 @@
+.Product {
+    margin: .75rem 1rem;
+    padding: 1rem;
+    width: fit-content;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    text-align: left;
+}
+.Product img {
+    width: 225px;
+    cursor: pointer;
+}
+.Product h2 {
+    font-size: 1.25rem;
+    margin: .9rem 0;
+}
+.Product p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: .9rem;
+}
+.Product button {
+    padding: 0.8rem;
+    width: 100%;
+    font-size: .95rem;
+}
+.Product button.unclicked {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}

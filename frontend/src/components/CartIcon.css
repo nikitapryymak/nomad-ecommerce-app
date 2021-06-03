@@ -1,0 +1,24 @@
+.CartIcon {
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+}
+.CartIcon img {
+    width: 30px;
+}
+.cart-count {
+    position: absolute;
+    right: -.9rem;
+    bottom: -.35rem;
+    width: 1.3rem;
+    height: 1.3rem;
+    padding: .15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #da4040;
+    color: white;
+    border-radius: 9999px;
+    font-size: .95rem;
+    font-weight: 500;
+}

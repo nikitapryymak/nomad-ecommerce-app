@@ -1,0 +1,29 @@
+.Nav {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 4px 16px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 4px 16px -4px rgba(0,0,0,0.75); 
+}
+.nav-content {
+    max-width: 1150px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem 1rem;
+}
+.logo {
+    font-size: 1.5rem;
+}
+.links {
+    display: flex;
+    align-items: center;
+    font-size: 1.15rem;
+}
+.links a {
+    margin-right: 1.5rem;
+}
+.links :last-child {
+    margin-right: .2rem;
+}
